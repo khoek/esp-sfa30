@@ -1,0 +1,25 @@
+{
+    "name": "esp-sfa30",
+    "version": "1.0.0",
+    "description": "A library built on esp-idf for reading SFA30 formaldehyde sensors.",
+    "keywords": "sfa30, formaldehyde, H2CO, sensor, i2c, hardware, esp-idf, esp32, esp8266",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/khoek/esp-sfa30.git"
+    },
+    "authors": [
+        {
+            "name": "Keeley Hoek",
+            "email": "keeley@hoek.io",
+            "url": "https://hoek.io"
+        }
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/khoek/esp-sfa30",
+    "frameworks": "espidf",
+    "platforms": "espressif32",
+    "dependencies": {
+        "khoek/libesp": "^2.2.0",
+        "khoek/esp-sensirion": "^1.0.0"
+    }
+}
